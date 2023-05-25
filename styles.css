@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ceebcd;
+    color: #afbb9f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+main {
+    background-color: #4c7251;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+A:link {text-decoration: none }
+A:visited {color: #000000;  font-family: arial; text-decoration: none }
+A:hover { color: #000000; font-family: arial; text-decoration: none }
+*{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
+
+h1,
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+img {
+    height: 350px;
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000033;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin: 20px auto;
+
+}
+.mapouter {
+    margin: 20px auto;
+    position: center;
+    display: block;
+    text-align: right;
+    height: 350px;
+    width: 500px;
+
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+}
+section {
+    margin-bottom: 40px;
+}
+
+section:nth-child(odd) {
+    background-color: #4c7251;
+}
+
+section:nth-child(even) {
+    background-color: #4c7251;
+}
+
+button {
+
+    border-radius: 1000px;
+    background: #ffffff;
+    padding: 20px 45px;
+    color: #ffffff;
+    font: normal bold 26px/1 "Komika", cursive;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3c893d;
+}
+
+button:focus {
+    outline: none;
+}

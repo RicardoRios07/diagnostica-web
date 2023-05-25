@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="js.js"></script>
+    <header><h1>Reservación de visita a montañita</h1></header>
+    <main>
+        
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required><br>
+
+            <label for="fechaInicio">Fecha de inicio:</label>
+            <input type="date" id="fechaInicio" min="yyyy-mm-dd" required><br>
+
+            <label for="fechaFin">Fecha de fin:</label>
+            <input type="date" id="fechaFin" min="yyyy-mm-dd" required><br>
+
+            <button type="button" onclick="enviarInformacion()">Enviar</button>
+        </form>
+
+        <div id="resultado"></div>
+    </main>
+</body>
+
+</html>
